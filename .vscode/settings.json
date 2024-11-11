@@ -2,5 +2,6 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "libs/prog.jar"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
