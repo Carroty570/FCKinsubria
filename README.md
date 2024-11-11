@@ -21,5 +21,8 @@ Repository with all java projects in Insubria
 
     - Murilo.CursoDIO -
 
-    In this division, i'll post my progects done on personal studies
-    
+    In this division, i'll post my projects done on personal studies
+
+    - Creation of a new Project, SmartTV, for incrementations of another pages into the main, creation of methods and classes.
+
+ 

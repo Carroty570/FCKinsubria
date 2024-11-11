@@ -13,8 +13,6 @@ public class Lezione1111 {
         System.out.println(r1.equals(r2));
 
 
-
-
     }
 
 
