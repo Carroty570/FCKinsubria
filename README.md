@@ -1,5 +1,5 @@
 # FCKinsubria
-Repository with all java projects in Insubria]
+Repository with all java projects in Insubria
 
 - Teste.java, testing file for github
 
@@ -8,4 +8,18 @@ Repository with all java projects in Insubria]
     - Murilo e Matteo, separate the projects
 
 - First exercise on github, 07/11
+
+
+        DAY 11/11
+
 - 11/11, creating a test for commiting on github
+- Creation of 2 divisions
+
+    - Murilo.Exercices -
+
+    In this division, i'll post my exercices done on univercity 
+
+    - Murilo.CursoDIO -
+
+    In this division, i'll post my progects done on personal studies
+    

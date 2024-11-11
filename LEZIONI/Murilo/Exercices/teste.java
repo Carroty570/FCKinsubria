@@ -1,4 +1,4 @@
-package Murilo;
+package Murilo.Exercices;
 
 public class teste {
     
