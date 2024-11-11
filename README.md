@@ -8,3 +8,4 @@ Repository with all java projects in Insubria]
     - Murilo e Matteo, separate the projects
 
 - First exercise on github, 07/11
+- 11/11, creating a test for commiting on github
