@@ -1,4 +1,4 @@
-package RISORSE;
+package Murilo.RISORSE.ProvaFigureCustom;
 
 public class QuadratoCustom extends RettangoloCustom {
 	
@@ -10,6 +10,18 @@ public class QuadratoCustom extends RettangoloCustom {
 	//METODI
 	public double getLato() {
 		return super.getBase();
+	}
+
+	public String getDescrizione1() {
+
+		return this.toString();
+
+	}
+
+	public String getDescrizione2() {
+
+		return super.toString();
+
 	}
 	
 	@Override

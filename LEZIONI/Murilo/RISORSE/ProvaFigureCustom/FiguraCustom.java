@@ -1,4 +1,4 @@
-package RISORSE;
+package Murilo.RISORSE.ProvaFigureCustom;
 
 public abstract class FiguraCustom {
 
