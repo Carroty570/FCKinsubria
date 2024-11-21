@@ -3,8 +3,8 @@ package Murilo.Exercices.LezioneConstrutori;
 public class Lezione1411main {
     
         public static void main(String[] args) {
-            FrazioneCustom f1 = new FrazioneCustom(-2,4);
-            FrazioneCustom f2 = new FrazioneCustom(-2,-10);
+            Lezionne1411 f1 = new Lezionne1411(-2,4);
+            Lezionne1411 f2 = new Lezionne1411(-2,-10);
             
             System.out.println("f1 -> "+f1.toString());
             System.out.println("f2 -> "+f2.toString());

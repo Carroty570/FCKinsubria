@@ -11,7 +11,8 @@ public class Lezionne1411 {
 	private int den;
 	
 	//COSTRUTTORI
-	public FrazioneCustom(int num, int den){
+	
+	public Lezionne1411(int num, int den){
 		//memorizza il segno
 		boolean negativo = (num < 0 && den > 0) || (num > 0 && den < 0);
 		if(num < 0)
@@ -26,12 +27,12 @@ public class Lezionne1411 {
 		this.den = den/m;
 	}
 	
-	/*public FrazioneCustom(int num){
+	/*public Lezionne1411(int num){
 		this.num = num;
 		this.den = 1;
 	}*/
 	
-	public FrazioneCustom(int num){
+	public Lezionne1411(int num){
 		this(num, 1); //per forza la prima istruzione del costruttore
 	}
 	
@@ -44,46 +45,46 @@ public class Lezionne1411 {
 		return den;
 	}
 		
-	public FrazioneCustom per(FrazioneCustom altra) {
+	public Lezionne1411 per(Lezionne1411 altra) {
 		int n = this.num*altra.num;
 		int d = this.den*altra.den;
-		FrazioneCustom ris = new FrazioneCustom(n, d);
+		Lezionne1411 ris = new Lezionne1411(n, d);
 		return ris;
-		//return new FrazioneCustom(n, d);
+		//return new Lezionne1411(n, d);
 	}
 	
-	public FrazioneCustom piu(FrazioneCustom f) {
+	public Lezionne1411 piu(Lezionne1411 f) {
 		int n = this.num * f.den + this.den * f.num;
 		int d = this.den * f.den;
-		return new FrazioneCustom(n, d);
+		return new Lezionne1411(n, d);
 	}
 	
-	public FrazioneCustom meno(FrazioneCustom f) {
+	public Lezionne1411 meno(Lezionne1411 f) {
 		int n = this.num * f.den - this.den * f.num;
 		int d = this.den * f.den;
-		return new FrazioneCustom(n, d);
+		return new Lezionne1411(n, d);
 	}
 	
-	public FrazioneCustom diviso(FrazioneCustom f) {
+	public Lezionne1411 diviso(Lezionne1411 f) {
 		int n = this.num * f.den;
 		int d = this.den * f.num;
-		return new FrazioneCustom(n, d);
+		return new Lezionne1411(n, d);
 	}
 	
-	public boolean isMinore(FrazioneCustom f) {
-		FrazioneCustom g = this.meno(f);
+	public boolean isMinore(Lezionne1411 f) {
+		Lezionne1411 g = this.meno(f);
 		return g.num < 0;
 		//return (g.num < 0 && g.den > 0) || (g.num > 0 && g.den < 0);
 	}
 	
-	public boolean isMaggiore(FrazioneCustom f) {
-		FrazioneCustom g = this.meno(f);
+	public boolean isMaggiore(Lezionne1411 f) {
+		Lezionne1411 g = this.meno(f);
 		return g.num > 0;
 		//return (g.num < 0 && g.den < 0) || (g.num > 0 && g.den > 0);
 	}
 	
-	public boolean equals(FrazioneCustom f) {
-		//FrazioneCustom g = this.meno(f);
+	public boolean equals(Lezionne1411 f) {
+		//Lezionne1411 g = this.meno(f);
 		/*if (g.num == 0)
 			return true;
 		else
@@ -94,8 +95,8 @@ public class Lezionne1411 {
 	
 	@Override
 	public boolean equals(Object o) {
-		if(o instanceof FrazioneCustom)
-			return this.equals((FrazioneCustom)o);
+		if(o instanceof Lezionne1411)
+			return this.equals((Lezionne1411)o);
 		return false;
 	}
 	
