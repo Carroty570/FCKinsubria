@@ -26,5 +26,17 @@ Repository with all java projects in Insubria
     - Creation of a new Project, SmartTV, for incrementations of another pages into the main, creation of methods and classes.
 
 
-- teste
+------------------------------------------------------------------------------------------------------------
+
+21/11 - Murilo
+
+- Creation of new folders by my part for some exercices.
+
+    - CepValidation - A EX from course DIO, Try Catch
+
+    - Lezione construtori - A EX that will serve like a formula to build our codes, divides by Construtori, metodi, Campi e Overright
+
+    - OrarioCustom - A EX to build a calendar, using methods and libraries from .util, Calendar and GregorianCalendar.
+
+    
  
