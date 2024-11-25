@@ -1,4 +1,4 @@
-package Murilo.Exercices;
+package Murilo.Exercices.Lessons;
 
 import java.util.LinkedList;
 import java.util.Scanner;

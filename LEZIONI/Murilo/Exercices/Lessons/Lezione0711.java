@@ -1,4 +1,4 @@
-package Murilo.Exercices;
+package Murilo.Exercices.Lessons;
 
 public class Lezione0711 {
     

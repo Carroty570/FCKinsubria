@@ -39,3 +39,7 @@ Repository with all java projects in Insubria
     - OrarioCustom - A EX to build a calendar, using methods and libraries from .util, Calendar and GregorianCalendar.
 
     - I FCKING FIXED the lesson1411, import the library prog and change the name of the classes 
+
+    DOMANDE DELL'ESAME
+
+    - Diferenza tra Controlled Exception and Uncontrolled Exception
