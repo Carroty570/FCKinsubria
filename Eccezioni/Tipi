@@ -1,0 +1,83 @@
+-------------------------TYPES OF EXCEPTION---------------------------
+
+
+JAVA.LANG-------------------------------------------------------------
+
+    - ArithmeticException -
+
+      Viene sollevata qualora si verifichino condizioni eccezionali, come la divisione
+    per zero, in operazioni aritmetiche.
+
+
+
+    - ArrayIndexOutOfBoundsException -
+
+      Viene sollevata quando si tenta di accedere a una posizione inesistente di un
+    array.
+
+
+
+    - NegativeArraySizeException - 
+
+      Viene sollevata quando si tenta di creare un array di dimensione negativa.
+
+
+
+    - StringIndexOutOfBoundsException -
+
+      Viene sollevata quando si tenta di accedere a una posizione inesistente in una
+    stringa.
+
+
+
+    - NullPointerException =
+
+      Viene sollevata quando si tenta di accedere a un oggetto tramite un
+    riferimento null.
+
+
+
+    - ClassCastException -
+
+      Viene sollevata quando si forza un tipo riferimento a un sottotipo di cui
+    l’oggetto non `e istanza.
+
+----------------------------------------------------------------------
+
+JAVA.UTIL-------------------------------------------------------------
+
+    - EmptyStackException -
+
+      Viene sollevata quando si tenta di accedere a un elemento di uno Stack
+    vuoto.
+
+
+
+    - NoSuchElementException -
+
+      Viene sollevata quando si richiama il metodo nextToken di un’istanza di
+    StringTokenizer e i token sono esauriti, o quando si richiama il metodo
+    next di un oggetto che implementa l’interfaccia Iterator e non ci sono pi`u
+    elementi nell’iteratore.
+
+----------------------------------------------------------------------
+
+----------------------ECCEZIONE NON CONTROLATE------------------------
+
+    -Sono tutte RuntimeException- 
+
+    - Eccezioni controllate -
+
+      Se nel corpo di un metodo o di un costruttore pu`o essere sollevata
+    un’eccezione controllata, il compilatore controlla che tale eccezione sia
+    trattata esplicitamente.
+    
+    Se ci`o non avviene il compilatore segnala un errore.
+
+
+
+
+
+
+
+
