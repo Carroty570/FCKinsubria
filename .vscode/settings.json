@@ -1,7 +1,8 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "libs/prog.jar"
+        "libs/prog.jar",
+        "prog-4ed.jar"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
