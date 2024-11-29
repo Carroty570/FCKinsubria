@@ -7,6 +7,7 @@
  patta*/
 
 package Matteo.EserciziCasa;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
@@ -14,9 +15,10 @@ public class Tris {
 
     public static void main(String[] args) {
 
+
+        //Inizializzazione matrice (tabella) e Scanner 
         Scanner sc = new Scanner(System.in);
         String[][] tabella = new String[3][3];
-        int riga, colonna;
         
 
         // Inizializzazione della matrice con valori vuoti
@@ -26,42 +28,54 @@ public class Tris {
             }
         }
 
+        //Il ciclo while permette di chiedere 
         boolean continua = true;
         while (continua) {
             // Stampa la matrice attuale
             System.out.println("\n Questa è la matrice di partenza:");
             stampaMatrice(tabella);
+            
+            int riga = 0;
+            int colonna = 0;
+            boolean inputvalido = false;
 
-            try {
+            //Ciclo while che permette di reinserire il valore in caso di InputMismatch
+
+            while(!inputvalido){
+
+                //Il try controlla i vaolri in caso di input mismatch
+
+                try {
                   // Chiedi all'utente riga e colonna
-            System.out.print("Inserisci l'indice della riga (0-2): ");
-            riga = sc.nextInt();
+                    System.out.print("Inserisci l'indice della riga (0-2): ");
+                    riga = sc.nextInt();
 
-            System.out.print("Inserisci l'indice della colonna (0-2): ");
-            colonna = sc.nextInt();
-
-            } catch (Exception InputMismatchException) {
-                // TODO: handle exception
-                System.out.println("Input errato, riprovare");
-
-                System.out.print("Inserisci l'indice della riga (0-2): ");
-                riga = sc.nextInt();
-
-                System.out.print("Inserisci l'indice della colonna (0-2): ");
-                colonna = sc.nextInt();
-
-            }
-
-            // Validazione degli indici
-            if (riga < 0 || riga >= tabella.length || colonna < 0 || colonna >= tabella[0].length) {
-                System.out.println("Indici non validi! Riprova.");
-                continue;
+                    System.out.print("Inserisci l'indice della colonna (0-2): ");
+                    colonna = sc.nextInt();
+            
+                    // Validazione degli indici
+                    if (riga < 0 || riga >= tabella.length || colonna < 0 || colonna >= tabella[0].length) {
+                        System.out.println("Indici non validi! Riprova.");
+                        continue;
+                    }
+                    else{
+                        inputvalido = true;
+                    }
+                } 
+                catch (InputMismatchException e) {
+                    // Eccezioni
+                    System.out.println("Inserire solo numeri interi, riprovare");
+                    sc.next();
+                
+            
+                }
             }
 
             // Chiedi la lettera da inserire
             
             System.out.print("Inserisci X o O: ");
-            String lettera = sc.next();
+            String letteratemp = sc.next();
+            String lettera = letteratemp.toUpperCase();
             
             while (!lettera.equals("X") && !lettera.equals("O")){
                 System.out.print("Lettera errata, riprovare: ");
