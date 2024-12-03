@@ -10,6 +10,50 @@ Creazione della variabile---------------------------------------
     1- Dichiarazione e assegnazione (int x; x = 3)
     2- Inizializzazione (int x = 3;)
 
+Variabili tipizzate:
+    Java è un linguaggio tipizzato perchè non si possono inizializzare della variabili senza 
+    specificarne il tipo. ES. X = 3 (NO) int x = 3 (SI)
+
+Tipi di dati----------------------------------------------------
+
+    Primitivi:
+        - boolean true : false 1bit
+        - byte -128 : 127 1 byte
+        - short -32768 : 32767 2 bytes
+        - int -2 miliardi : 2 miliardi 4 bytes
+        - long -9 quintilioni : 9 quintilioni 8 bytes
+
+        - float numero con 6-7 cifre decimali 4 bytes
+        -double numero con 15 cifre decimali 8 bytes 
+
+        - char singolo carattere/lettera/ASCII 2 bytes
+
+    Riferimento:
+        - String sequenza di caratteri variabile
+
+    Differenza tra i tipi primitivi e i tipi riferimento:
+        - I primitivi ci vengono forniti da java e cominciano con la lettera minuscola.
+        - I riferimento non ci vengono forniti da java e si possono creare. Iniziano con la lettera maiuscola.
+
+        - La seconda cosa che li distingue sono i metodi. 
+        I tipi riferimento infatti contengono al loro interno una serie di metodi che si possono
+        utilizzare mentre i tipi primitivi ne sono sprovvisti.
+
+Operatori Matematici--------------------------------------------
+
+    I principali operatori aritmetici sono: + - * / % 
+
+        - (+) 2 + 2 = 4
+        - (-) 2 - 2 = 0 
+        - (*) 2 * 2 = 4
+        - (/) 2 / 2 = 1
+        - (%) Questa operazione modulo restituisce il resto di una divisione
+
+    Incrementazione e decrementazioni 
+        - Postfissa = X++ 
+        - Prefissa = ++X
+
+
 
 
 
