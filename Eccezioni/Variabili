@@ -54,6 +54,89 @@ Operatori Matematici--------------------------------------------
         - Prefissa = ++X
 
 
+Classe Math-----------------------------------------------------
+    
+    Operatori principali: -abs -min -max -pow -sqrt
+    Attributori: PI
+
+Operatori di comparazione/logici--------------------------------
+
+    Comparazione: 
+        * >
+        * >=
+        * <
+        * <=
+        * ==
+        * !=
+
+    Logici:
+        * && (AND)
+        * || (NOT)
+    
+Condizioni con IF-----------------------------------------------
+
+    -IF
+    -ELSE 
+    -ELSE IF
+    -IF annidati 
+    -Operatori ternari
+
+    IF annidati: 
+        - Sono if all'interno di if (solitamente è èiù comodo utilizzare operatori logici).
+            ES.  if(numero < 10){
+                    System.out.println("è minore di 10");
+                    if(numero % 2 == 0){
+                        System.out.println("è pari");
+                    }else {
+                        System.out.println("è dispari");
+                    }
+                } else{
+                    System.out.println("non è minore di 10);    
+                }
+    
+    Operatori ternari:
+        -Si utilizzano per porre condizioni ad una variabile senza utilizzare if else
+
+        ES. String x = 3 < 10 ? "ciao" : "Buongiorno";
+        ? = è vera la condizione ?
+        : = altrimenti
+
+Switch - Case---------------------------------------------------
+
+    - Questa è una condizione che si usa al posto degli if per fare degli elenchi.
+    - Il break viene usato per uscire dall switch una volta che si è verificato uno dei casi possibili.
+    - Il default invece si usa per indicare tutto il resto dei casi.
+
+
+    ES. switch(nome){
+
+            case "Luca":
+                System.out.println("Ciao");
+                break;
+            
+            case "Lorenzo":
+                System.out.println("si");
+                break;
+            
+            case "Andrea":
+                System.out.println("no");
+                break;
+            
+            case "Mario":
+                System.out.println("arrivederci");
+                break;
+
+            default:
+                System.out.println("Ciao chiunque tu sia")
+        }
+
+
+
+
+
+
+
+
 
 
 
