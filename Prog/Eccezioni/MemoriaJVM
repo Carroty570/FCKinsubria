@@ -8,6 +8,11 @@
 
     -stabilita a priori esaminando esclusivamente il testo della classe
 
+    -E una ` pila di record di attivazione
+
+        -I Ogni record di attivazione `e un’area di memoria locale contenente i dati
+r        elativi a ciascun metodo attivato.
+
 --------------------------------Stack---------------------------------
 
  - Per contenere i dati usati dai singoli metodi che vengono man mano
@@ -16,8 +21,28 @@
     -I La sua struttura evolve dinamicamente durante l’esecuzione in base alle
      chiamate dei metodi
 
+      -Prende il nome dalla struttura dati utilizzata per gestirla, lo stack (pila).
+
+       - I Struttura LIFO: `e possibile aggiungere o eliminare elementi solo in cima
+       alla pila
+
+
 --------------------------------Heap-----------------------------------
 
     -Per memorizzare gli oggetti creati dinamicamente durante l’esecuzione
+
+        - Gli oggetti vengono creati dinamicamente, richiamando i costruttori all’interno
+          di espressioni new
+
+        -Quando un oggetto non `e pi`u accessibile l’area di memoria utilizzata
+         pu`o essere recuperata e riutilizzata successivamente per altri oggetti
+         
+    --Garbage Colector--
+
+        - Recupera la memoria occupata da oggetti non pi`u referenziati
+
+        - I riorganizza lo heap rimediando ai problemi di allocazione dovuti alla
+        frammentazione
+
 
 
