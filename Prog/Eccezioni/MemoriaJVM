@@ -1,0 +1,23 @@
+---------------------------Memoria statica---------------------------
+
+ - Utilizzata per i campi statici delle classi
+    
+    -I Allocata al momento in cui le classi vengono caricate per l’esecuzione
+
+    -I La quantit`a di memoria statica necessaria per una classe pu`o essere
+
+    -stabilita a priori esaminando esclusivamente il testo della classe
+
+--------------------------------Stack---------------------------------
+
+ - Per contenere i dati usati dai singoli metodi che vengono man mano
+   eseguiti.
+
+    -I La sua struttura evolve dinamicamente durante l’esecuzione in base alle
+     chiamate dei metodi
+
+--------------------------------Heap-----------------------------------
+
+    -Per memorizzare gli oggetti creati dinamicamente durante l’esecuzione
+
+
