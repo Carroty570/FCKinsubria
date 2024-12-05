@@ -1,0 +1,24 @@
+---------------------RIDUZIONE DELLA PENALITÀ DI FALIMENTO-----------------------
+
+- Cache miss su L1? Cercare in L2
+
+    - Caricare il blocco su L1
+    - Miss anche su L2? Caricare blocco su L2 (RAM), quindi su L1
+
+- Conviene la cache multilivello?
+
+    -Difficile dire, per fortuna c'è il profilling
+
+- Nelle architetture moderne, tipicamente:
+
+    - Ci sono due liveli de cache: L1 L2 (L3 anche a volte):
+    - Sono entrambi SRAM:
+    - Sono entrambi a bordo del microchip del processore:
+
+        -- Se c'è un L3 (Di solito NO), è DRAM e in un chip separto:
+        -- Come un tempo era anche la L1-Cache:
+
+- <<Split Cache>> 
+
+    Ci sono due cache L1, specializzate. 
+

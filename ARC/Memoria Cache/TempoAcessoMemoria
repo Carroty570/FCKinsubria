@@ -1,0 +1,24 @@
+--------------------TEMPO DI ACESSO DELLA MEMORIA----------------------
+
+
+Hit_rate x hit_time
+
+        +
+
+miss_rate x miss_penalty
+
+
+ - Dove
+
+        - Tasso di sucesso = hit_rate
+        - Tasso di falimento = miss_rate = 1- hit_rate
+        - hite_time ~ tempo di acesso alla cache (e ricerca del blocco)
+        - miss_penalty = Penalità di falimento = tempo di falira la ricerca del blocco in cache (~hit_time)
+
+        +
+
+        tempo di acesso alla main memory
+
+        +
+
+        tempo di compilare un intero blocco in cache (e trovare dive copiarlo)
