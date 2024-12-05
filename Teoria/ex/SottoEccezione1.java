@@ -1,4 +1,4 @@
-package FCKinsubria.Teoria.Prog.Eccezioni.ex;
+package FCKinsubria.Teoria.ex;
 
 public class SottoEccezione1 extends Eccezione0 {
 

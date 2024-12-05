@@ -1,0 +1,28 @@
+Flussi di input----------------------------------------
+    -Per ricevere in ingresso dei dati, un'applicazione apre uno stream collegato
+     a una sorgente di informazioni (file, memoria, socket,...) da cui legge sequenzialmente 
+     le informazioni.
+
+     Le informazioni vengono quindi trasferiti dalla sorgente sotto forma di "pacchetti"
+
+     -Buffer: zona di attesa virtuale che può avere diversi tipi di priorità.
+
+     -Prima di inizializzare qualsiasi istruzione di read o write bisogna creare lo stream.
+
+     1) creazione dello stream 
+     2) while (ci sono informazioni da leggere)
+     3) leggi
+     4) chiudi lo stream
+
+     Per gestire input e output esiste una classe di java che si chiama java.io non contenuto in java.lang e quindi va importato
+
+     Il pacchetto java.io è composto da 2 sezioni principali:
+        -Flussi di byte (byte di stream)
+            -L'unità di informazione gestita è il byte(8-bit)
+
+    Classe FileReader per leggere i file
+     -public FileReader(String nomeFile) 
+     -se il file non esiste viene sollevata l'eccezione controllata FileFoundExeption 
+     -quando il metedo read restituisce -1 il file è terminato
+
+
