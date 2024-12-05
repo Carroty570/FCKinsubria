@@ -10,7 +10,7 @@ public class Lezione0512 {
         //costruzione dello stream di caratteri
         
         try{
-            FileReader frd = new FileReader(".\\docs\\ProvaReader.txt");
+            FileReader frd = new FileReader(".\\FCKinsubria\\docs\\ProvaReader.txt");
             int i;
             
             //lettura e visualizzazione
