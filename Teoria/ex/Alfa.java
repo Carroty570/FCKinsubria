@@ -1,4 +1,4 @@
-package FCKinsubria.Teoria.Prog.Eccezioni.ex;
+package FCKinsubria.Teoria.ex;
 public class Alfa {
 	private int x;
 	private static int y = 5;
