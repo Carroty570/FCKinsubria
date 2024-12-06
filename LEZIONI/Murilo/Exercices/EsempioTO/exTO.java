@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import javax.annotation.processing.FilerException;
+
 
 public class exTO {
 
@@ -15,8 +15,7 @@ public class exTO {
         try {
 
             FileReader frd = new FileReader(".\\src\\esempi\\prova.txt");
-            
-           int i;
+            int i;
            while ((i = frd.read()) != -1) {
             
             System.out.println((char)i);
