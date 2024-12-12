@@ -1,0 +1,28 @@
+-----------------------Classe Atratta------------------------
+
+        La Classe Astratta é basicamente una classe che non si può istanziare,
+    quindi, !NON! si può criare oggeti. Serve di base per gli altre classi, utilizzata 
+    per creare metodi generiche e astratte (palese), overo, con o sensa implementazione
+
+
+    -Metodi Astratte-
+
+    Metodi dichiaratti "Sensa corpo", quindi, non ha una implementazione
+
+    #Le classi non astratte che ereditano le Classi astratte devono per forza iplementare
+    #tutti i metodi astratti.
+
+    -Metodi Concretti-
+
+    Possono essere iplementati in una classe astratta e riutilizatti in una Subclasse
+
+    //vai al es_classe_astratta.java
+
+
+
+    !ATENZIONE!
+
+    Una classe puo ereditare solo UNA classe astratta 
+
+    
+

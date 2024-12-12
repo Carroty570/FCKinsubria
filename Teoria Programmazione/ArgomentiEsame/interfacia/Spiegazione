@@ -1,0 +1,38 @@
+------------------------Interfacia---------------------------
+
+        Insiemi dei metodi che la classe deve attrezzare, basicamente
+    usata per stabilire regole o comportamenti che diverse classi possano 
+    compartigliare.
+    
+    - Non è dipendenti dalla gerarchia di classi.
+    - Contieni metodi che sono, per forza, Astratti e publici
+    - Le classi che attrezzano una interfacia devono fornire 
+    attrezzamenti per tutti i metodi nella interfacia.
+
+
+    $Ereditarietà multipla$
+
+    La principale diferenza tra Interfacia e Classe Astratta
+
+    Una classe PUÒ ereditare una o piu interfaci, mentre una classe so può ereditare una classe astratta.
+
+------------------Metodi Default e Static-------------------
+
+
+        Questi metodi permetono che metodi concreti funzionano
+    su interfaci.
+
+    --Metodo Default--
+
+        -  I Classi che utilizzano questo metodo possano anche sovrascreverla, ma bisognano che la classe 
+        attrezza loro.
+
+    --Metodo Static--
+
+        Sono metodi che possano essere chiamati diretamente, sensa la necessità di una classe;
+
+
+
+
+
+

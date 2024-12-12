@@ -1,0 +1,29 @@
+-------------------------classe--------------------------
+
+        Le classi sono la base della POO. Nelle quale sono fatte di un saco di 
+    caratteristiche e di oggeti.
+
+    -Oggeto-
+
+    Un oggeto è stanza di una classe, quindi, è nato dalla classe, e può essere
+    usatto nel programma.
+
+        #Campi#
+        
+        #I campi sono le caratteristiche dell'oggetto, le variabili (Int, String...)
+
+            #Metodi#
+
+            #Sono le azione che un oggetto può realizzare
+
+
+    Basicamente le classi sono delle muffe che definiscono caratteristiche (Campi, 
+  Atributi) e azioni (Metodi) che un Oggetto può realizzare
+
+  !----------------------------------------------------------------------------------!
+
+            
+
+            
+
+        
