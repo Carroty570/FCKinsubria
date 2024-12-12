@@ -1,0 +1,26 @@
+Strutture dati-----------------------------------------------
+
+    -Servono per memorizzare le informazioni in maniera ordinata.
+    -Sono sostenute da un organizzazione che rende più efficiente l'esecuzione 
+     sia da un punto di vista logico sia da un punto di vista pratico
+    
+    -Si dividono in: liste, code, insieme, alberi
+    -Si può 
+    -Una pila statica è un array a tutti gli effetti il che vuol dire che è limitata 
+     (può essere utile per determinate applicazioni), l'unica cosa che mi interessa 
+     sapere è cosa c'è nella prima posizione libera perchè posso agire solo su quella.
+     Non posso chiamare il metodo is empty perchè un array non è "mai" vuoto. 
+    
+    -Metodi push e pop e top
+     Top mi indica la prima posizione libera
+     Pop
+     Push
+
+    -Il metodo empty 
+
+    -Per non avere vincoli di spazio posso utilizzare una pila dinamica che non ha limitazioni 
+     di spazio 
+    
+    
+     
+     
