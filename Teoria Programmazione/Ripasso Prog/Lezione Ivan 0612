@@ -1,0 +1,43 @@
+//Le domande affiancate dai simboli "!!" sono quelle possibile all'esame seccondo il tutor
+
+- Il construtore è un metodo con lo stesso nome della classe
+
+#Conceto di overloading !!
+
+Ha lo stesso nome del metodo, ma funziona diversamente
+
+#public, private e protected# !!
+
+public, tutti vedono
+
+private, solo la classe vede
+
+protected, solo la classe e tutti gli elementi che la estendono
+
+
+
+---classe astrate---
+
+Una classe che non crea oggeti, quindi una classe che non si può stanziare
+
+Evita la creazione dei metodi
+
+Diferenza tra classe atratta e interfacia !!
+
+La differenza è che si può creare più di un'interfaccia ma si può creare una sola classe astratta
+
+##Eccezioni## !!
+
+Sono gli errori che vengono generati durante il programma (a runtime)
+
+###Eccezione###
+
+--Throw-- 
+
+Letteralmente lancia una eccezione !!
+
+-----------------------------------------
+
+class EccezioneCreata extends Exception !!
+
+per creare una eccezione 
