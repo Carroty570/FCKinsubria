@@ -1,0 +1,9 @@
+-----------------------Intestazione-----------------------
+
+    public static void main(String[] args)
+
+    - static: è un metodo statico 
+    - void: non restituisce alcun valore
+    - String[] args: riceve come argomento il riferimento ad un array di stringhe
+
+    - 

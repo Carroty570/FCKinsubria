@@ -129,3 +129,55 @@ Switch - Case---------------------------------------------------
             default:
                 System.out.println("Ciao chiunque tu sia")
         }
+
+Ciclo For - Foreach---------------------------------------------
+
+    - Questo è un ciclo che esegue il codice contenuto al suo interno fino a quando non si 
+      verifica una determinata condizione
+    - Il ciclo for viene utilizzato solitamente quando si conoscono i cicli massimi. La maggior
+      parte delle volte si utilizzano per scorrere degli array.
+
+
+
+    for(int i = 0; i < 5; i++){
+        System.out.print(i);
+    }
+
+    - Il ciclo foreach è utilizzato esclusivamente per scorrere un array.
+
+    int[] array = {1, 2, 3, 4, 5};
+    for(int numero:array){
+        System.out.println(numero):    
+    }
+
+    - Break: interrompe un ciclo
+    - Continue: fa saltare il resto del codice contenuto all'interno del ciclo 
+                e lo fa ricominciare.
+
+Gli Array-------------------------------------------------------
+
+    - Sono insiemi ordinati dello stesso tipo (tipo base) di variabili, ognuna delle quali
+      è accessibile specificando la posizione in cui si trova.
+
+    - Il tipo base di un array può essere sia di tipo primitivo sia di tipo riferimento
+    - Gli array di oggetti hanno un tipo base che è esclusivamente riferimento
+
+    - In java gli array sono oggetti -- new tipo_base[espressione_int]; -- Tipo_base[] identificatore;
+
+    - In un array di oggetti tutte le posizioni sono automaticamente iniaizlizzate a null quando viene creato.
+    - Ogni array contiene l'informazione della sua lunghezza nel campo length di tipo int.
+
+    - Nome_array[selettore] -- il selettore deve essere di tipo int 
+    - Le posizioni di un array si contano a partire da 0!!! --Il tentativo di accedere ad una componente dell'array
+                                                              in fase di esecuzione causa un errore (ArrayIndexOutOfBoundsException).
+
+    
+    - Lettura di un array 
+
+        for (int pos = 0; pos < array.length; pos ++){  
+            System.out.println(pos + 1);
+        }
+
+    
+
+
