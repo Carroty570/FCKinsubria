@@ -1,0 +1,48 @@
+!OBS: Guare prima gli altri documenti!
+
+------------Livelli nei moderni calcolatori---------------
+
+-5. Livello Applicativo
+-4. Livello del linguaggio assemblatore
+-3. Livello del sistema operativo
+2. Livello dell'Instruction Set (ISA)
+1. Livello della microarchitettura
+0. Livello logico
+
+#Livello Logico#
+
+    - La machina è formata da porte logiche 
+    - Ogni porta riceve in ingresso dei segnali binari e calcola una semplice
+    funzione (AND, OR...)
+    - Alcune porte possono formare una memoria di un bit (Bistable)
+    - Combinando N memorie di un bit si può formare un registro capace di memorizzare
+    un numero binario
+
+    - Combinando le porte logiche si realizzano i circuiti che formano i calcolatiri.
+
+#Microarchitettura#
+
+    Elaborazione - Data Path
+
+        - Registri general purpose, come memoria locale
+        - Arithmetic Logic Unit (ALU), capace de eseguire semplici operazioni aritimetiche
+        logiche
+        - Elementi di connessione tra registri e ALU
+
+    Controlo 
+
+        - Registri dedicati al controllo (PC, IR...)
+        - Unità di controlo - Control Unit, che possano essere microprogrammate o cablate
+
+#Instruction Set Architetture#
+
+    
+    Insieme delle instruzione che possono essere comprese dalla Microarchitettura
+(La microarchitettura agisce come un interprete dell'Instruction Set)
+
+- È in livello cui si fa riferimento quando si descrive il "Linguaggio macchina" di un 
+calcolatore 
+
+
+
+!!Tutti questi argomenti di sopra saranno studiatti e apronfondatti negli altri documenti della Teoria!!

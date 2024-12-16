@@ -1,0 +1,39 @@
+----------------------Concetti----------------------
+
+- Astrazione -
+
+    Significa ignorare, nascondere dettagli (anche rilevanti) per simplificare il problema.
+Necessario per  affrontare problemi complessi
+
+ES:
+
+    Un motore è un elemento che eroga potenza, ma nascondiamo i dettagli della construzione
+di questo motore.
+
+    Una Database é un sistema in grado di memorizzare dati persistenti, ma astriamo i detta-
+gli tecnici dell sistema.
+
+---------------------Calcolatori---------------------
+
+- Il calcolatore (Computatore, Sistema) può essere descritto come una gerarchia de machine
+virtualli, astratte
+
+- È importante capira che mi interessa capire il livelo in esame, non dei sottostanti
+
+---------------------Esecutore-----------------------
+
+    Quello che fai azione, esecuta. Un esecutore è definito in base a 3 elementi:
+
+        - L'insieme delle operazione (Azione) che è capace di compiere
+        - L'insieme delle instruzioni (Sintassi) che capisce
+        - Quali operazioni associa ad ogni instruzioni che riconosce, basicamente
+        l'organizatore e distributore di instruzioni
+
+ES:
+
+Elaboratore -> Esegue -> Insieme di instruzioni
+                                        |
+                                 Ogni Instruzione -> Diverse Operazioni
+                                 
+
+

@@ -1,0 +1,32 @@
+---------------------Esempio Pratico----------------------
+
+#Machina M0#
+
+    - Capisce il linguaggio L0
+    - L0 -> capisce le Instruzioni: I0, I1, I2
+    - L0 = {I0, I1, I2}
+
+- Astrazione: Non ci interessa come M0 funziona internamente
+
+#Machina M1#
+
+    - Capisce il linguagio L1
+    - L1 -> capisce le Instruzioni: J0, J1, J2, J3
+    - L1 = {J0, J1, J2, J3}
+
+- M1 é una machina de più livello che M0, perchè sue instruzioni sono più
+potenti e facili da usare (Perche sono di L1)
+
+--Instruzioni--
+
+    Tutte le instruzioni di L1 (Quindi J0, J1, J2, J3) sarano una sequenza di instruzione di L0
+nella machina M0
+
+    --J0 = {I0, I1, I1, I2}
+    --J1 = {I1, I2}
+    --J2 = {I2, I0, I1}
+    --J3 = {I2, I2, I0}
+    
+
+
+

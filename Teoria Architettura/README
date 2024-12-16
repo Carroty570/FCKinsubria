@@ -1,0 +1,82 @@
+---------------------TEORIA: ARCH.D.ELAB.----------------------
+
+        Qui ci sarano tutti gli argomento necessari e trattati nel
+    corso di Architettura degli elaborattori
+
+#Base#
+
+- Astrazione e macchine virtuali
+- Rappresentazioni numeriche di interi positivi, conversioni tra basi, e operazioni aritmetici
+- Rappresentazione in modulo e segno, e rappresentazione in complemento a 2
+- Rappresentazione in codice eccesso
+- Rappresentazione in virgola fissa
+- Rappresentazione in virgola mobile
+- Rappresentazione di caratteri; Introduzione alle porte logiche
+- Le porte logiche XOR, NXOR, NAND, e NOR. Introduzione all'Algebra di Bool
+- Tabellazione, simulazione, analisi e sintesi in forma SoP
+- Sintesi in forma PoS, trasformazioni algebriche.
+- Le porte universali
+
+#Karnaugh#
+
+- Mappe di Karnaugh per funzioni a 2 e 3 variabili
+- Il metodo di Karnaugh per funzioni a 3 e 4 variabili
+- Il metodo di Karnaugh per funzioni a 5 e 6 variabili
+
+#Blocchi funzionali#
+
+- Il blocco semi-sommatore e sommatore a 1 bit
+
+    - il sommatore a n bit
+    - Progettazione di circuiti con blocchi funzionali
+
+- Il blocco funzionale estensore
+
+    - left shift
+    - right shift
+    - moltiplicatore
+
+#Logica#
+
+- L'unità aritmetico logica (ALU)
+- Il Latch SR, macchine a stati e diagrammi temporali
+
+- Il Gated D-Latch
+
+    - Sincronizzazione sul livello e sul fronte
+    - I Flip-Flop
+
+#Cirquiti#
+
+- Progettazione di circuiti sequenziali
+- Registri paralleli e a scorrimento
+
+    - Il banco dei registri
+
+#Memoria#
+
+- Il banco di memoria
+- Il banco di memoria, tecnologie per realizzare memorie
+
+- Il sistema di memoria
+
+    - Introduzione alle memorie cache a indirizzamento diretto
+
+- Cache a indirizzamento diretto
+
+    - Metriche relative alle performance di una cache
+    - Cache completamente associative
+
+- Cache set associative
+- Simulazioni di sistemi di memoria
+
+#DataPath#
+
+- Requisiti di progettazione del datapath a singolo ciclo
+- Supporto all'esecuzione delle istruzioni addu, subu, ori e lw.
+- Supporto all'esecuzione delle istruzioni sw, beq e j
+- L'unità di controllo per il datapath a singolo ciclo
+- Il datapath multiciclo
+
+ 
+

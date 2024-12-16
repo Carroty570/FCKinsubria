@@ -1,45 +1,44 @@
-# FCKinsubria
-Repository with all java projects in Insubria
+# FCKinsubria 07/11 # 
 
-- Teste.java, testing file for github
+PATCH 16/12/24
 
-- Creation of folders
+    Wellcome, bienvenutto or bem-vindo,
+
+   This is a Github repository for the args from INF course in INSUBRIA, till now there are
+the firts 6 months of lessons here.
+
+1. We gave our prio on Programmazione, cause it is basically the main subject in this initial 
+route
+
+    Here you can find the exercices done by Murilo and Matteo (Il coglione) till now Of course,
+all in java. The codes are on those folders on your left, so enjoy.
+
+
+
+    !Minimal Presetts!
+
+        - Java installed ofc
+        - An IDE pre installed and setted, we are using and we recomend VScode, cause it's easier
+        to integrate with github, but you can use any one you want (Eclipse, Intelijj 4 exemple)
+
+        - We are using this repository to share the information and divide the work, we think that
+        this is a easier way to go throght the course, teamwork fellas
+
+        - If you are new here, fell free to create your on folder on LEZIONI, with or name, and
+        use this space 4 your projects
+
+2. We started to put the theory here to, on the main folder FCKinsubria, and starting Architettura too
+
+     -For Programmazione, Matteo Digosciu is doing the teorical work, go to Teoria programazione,
+     will be composed by a README with all the args that we need to study 4 the test.
+
+     Each subject is divided in folders, with a doc.txt explaning the teory, and after a pratical
+    exemple.
+
+    - For Architettura, Murilo Faleiros is doing the teorical work, go to Teoria Architetura.
+    Will be composed by a README with all the args that we need to study 4 the test.
+
+    Each subject is divided in folders, with a doc.txt explaning the teory
     
-    - Murilo e Matteo, separate the projects
-
-- First exercise on github, 07/11
 
 
-        DAY 11/11
-
-- 11/11, creating a test for commiting on github
-- Creation of 2 divisions
-
-    - Murilo.Exercices -
-
-    In this division, i'll post my exercices done on univercity 
-
-    - Murilo.CursoDIO -
-
-    In this division, i'll post my projects done on personal studies
-
-    - Creation of a new Project, SmartTV, for incrementations of another pages into the main, creation of methods and classes.
-
-
-------------------------------------------------------------------------------------------------------------
-
-21/11 - Murilo
-
-- Creation of new folders by my part for some exercices.
-
-    - CepValidation - A EX from course DIO, Try Catch
-
-    - Lezione construtori - A EX that will serve like a formula to build our codes, divides by Construtori, metodi, Campi e Overright
-
-    - OrarioCustom - A EX to build a calendar, using methods and libraries from .util, Calendar and GregorianCalendar.
-
-    - I FCKING FIXED the lesson1411, import the library prog and change the name of the classes 
-
-    DOMANDE DELL'ESAME
-
-    - Diferenza tra Controlled Exception and Uncontrolled Exception

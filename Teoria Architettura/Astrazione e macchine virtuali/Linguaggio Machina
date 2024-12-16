@@ -1,0 +1,23 @@
+---------------------Definizioni-----------------------
+
+    Insieme delle instruizioni (Comandi) che l'esecutore è in grado di 
+capire e eseguire.
+
+---------------------Caratteristiche-------------------
+
+    - Il Linguagio Machina è compreso dal processore
+    - Le instruzioni sono in binario, sequenze di 0 e 1
+
+----------------------Esecutori-------------------------
+
+- Il calcolatore capisce le instruzioni dell linguaggio machina (Chiam-
+miamo di L0)
+
+    - L'obiettivo è definire una machina che capisca un linguaggio più
+    potente e facile da utilizzare, lo chiamiamo L1
+
+ESECUZIONE:
+
+    1- Definire l'insieme delle instruzioni che fanno parte di L1
+    2- Utilizzare le !instruzioni! di L0 come !operazioni! di L1
+    3- Definire quali operazioni vngono associate a quali instruzioni
