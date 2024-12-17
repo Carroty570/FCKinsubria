@@ -1,4 +1,4 @@
-package Esempi.Eccezioni;
+package Eccezioni;
 
 public class Eccezione0 extends Exception {
 

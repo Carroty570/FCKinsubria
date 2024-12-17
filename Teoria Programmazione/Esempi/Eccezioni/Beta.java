@@ -1,4 +1,4 @@
-package Esempi.Eccezioni;
+package Eccezioni;
 
 public class Beta extends Alfa {
 

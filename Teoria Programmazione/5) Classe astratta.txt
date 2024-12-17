@@ -7,14 +7,14 @@
 
     -Metodi Astratte-
 
-    Metodi dichiaratti "Sensa corpo", quindi, non ha una implementazione
+    Metodi dichiaratti "Senza corpo", quindi, non ha una implementazione
 
-    #Le classi non astratte che ereditano le Classi astratte devono per forza iplementare
+    #Le classi non astratte che ereditano le Classi astratte devono per forza implementare
     #tutti i metodi astratti.
 
     -Metodi Concretti-
 
-    Possono essere iplementati in una classe astratta e riutilizatti in una Subclasse
+    Possono essere implementati in una classe astratta e riutilizatti in una Subclasse
 
     //vai al es_classe_astratta.java
 

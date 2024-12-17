@@ -1,12 +1,12 @@
 ------------------------Interfaccia---------------------------
 
         Insiemi dei metodi che la classe deve attrezzare, usata per stabilire 
-        regole o comportamenti che diverse classi possono compartigliare.
+        regole o comportamenti che diverse classi possono condividere.
     
     - Non dipende dalla gerarchia delle classi.
     - Contieni metodi che sono, per forza, Astratti e publici
-    - Le classi che attrezzano un'interfaccia devono fornire 
-    attrezzamenti per tutti i metodi al suo interno.
+    - Le classi che implementano un'interfaccia devono fornire 
+    implementazioni per tutti i metodi al suo interno.
 
 
     $Ereditarietà multipla$

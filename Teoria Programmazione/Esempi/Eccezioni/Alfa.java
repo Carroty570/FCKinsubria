@@ -1,4 +1,5 @@
-package Esempi.Eccezioni;
+package Eccezioni;
+
 public class Alfa {
 	private int x;
 	private static int y = 5;

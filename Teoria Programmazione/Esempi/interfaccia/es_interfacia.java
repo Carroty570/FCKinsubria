@@ -1,4 +1,4 @@
-package Esempi.interfaccia;
+package interfaccia;
 
 interface mezzo {
     void ligare();
