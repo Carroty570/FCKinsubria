@@ -2,8 +2,19 @@
 
     public static void main(String[] args)
 
-    - static: è un metodo statico 
+    - static: è un metodo statico, fornito direttamente dalla classe cui appartiene 
+              ovvero invocabile anche se non esiste alcuna istanza di quella classe.
+
     - void: non restituisce alcun valore
     - String[] args: riceve come argomento il riferimento ad un array di stringhe
 
-    - 
+    - public: è un modificatore di visibilità e indica che il metodo è visibile anche al 
+              di fuori della classe.
+
+    - Quando si manda in esecuzione il programma la JVM cerca nel bytecode della classe un metodo
+      statico con il prototipo sopra descritto. Se lo trova lo invoca passandogli come argomento le
+      stringhe che sono state specificate nel comando di esecuzione dopo il nome della classe.
+
+    
+      
+    

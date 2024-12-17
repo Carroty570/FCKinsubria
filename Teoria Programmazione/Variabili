@@ -175,8 +175,15 @@ Gli Array-------------------------------------------------------
     - Lettura di un array 
 
         for (int pos = 0; pos < array.length; pos ++){  
-            System.out.println(pos + 1);
+            System.out.println(array[pos]);
         }
+
+    -Lettura di un array con un ciclo for-each
+
+        for (object:array){
+            System.out.println(object)
+        }
+
 
     
 
