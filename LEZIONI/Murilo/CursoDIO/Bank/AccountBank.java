@@ -22,7 +22,6 @@ public class AccountBank {
 
             System.out.print("Hi, " + name + "thanks to chose our bank, your agency is: " + agency + "the number of your account is " + number + "and you have " + balance + "to withdraw");
 
-            
 
 
 

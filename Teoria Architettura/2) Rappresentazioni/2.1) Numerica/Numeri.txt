@@ -32,6 +32,35 @@ Quindi, una esprezione in base diverse sarano rapresentatti per la posizione
 
 Base 2: Due cifre - 0 e 1    (binario)
 Base 8: Otto cifre - 0 a 7    (octal)
-Base 10: Dieci cifre - 0 a 0 (decimal)
-Base 16: Sedici cifre - 0 a 9, A - F
+Base 10: Dieci cifre - 0 a 0 (decimale)
+Base 16: Sedici cifre - 0 a 9, A - F (esadecimale)
 
+#Esadecimale#
+
+    Come non abiammo cifre per raprezentare numeri di 10 in più, nella rapresentzione 
+esadecimale si usano le lettere.
+
+0       0
+1       1
+2       2
+3       3
+4       4
+5       5
+6       6
+7       7
+8       8
+9       9
+10      A
+11      B
+12      C
+13      D
+14      E
+15      F
+
+    Per evitare confuzione, si usano delle conversioni con un prefisso 0x
+
+ES: 0xF5A, 0xADA 
+
+------------------------------------------------------------------------------------
+
+Vai su Converzione_Base.pdf. 
