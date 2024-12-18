@@ -21,6 +21,9 @@ all in java. The codes are on those folders on your left, so enjoy.
         - An IDE pre installed and setted, we are using and we recomend VScode, cause it's easier
         to integrate with github, but you can use any one you want (Eclipse, Intelijj 4 exemple)
 
+        -  On some theory filles will be in pdf, we recomend you to instal the extention "vscode-pdf" 
+        on you VScode, it will help to visualise your pdfs.
+
         - We are using this repository to share the information and divide the work, we think that
         this is a easier way to go throght the course, teamwork fellas
 
